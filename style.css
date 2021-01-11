@@ -6,34 +6,58 @@
 
 body {
   margin-right: 5rem;
+  padding-bottom: 0.5em;
 }
+
 .tableau {
-  font-size: small;
-  font-family: 'Cookie', cursive;
+  font-size: smaller;
+  font-family: 'Indie Flower';
+  font-size: 0.9em;
+  font-style: oblique;
 }
+.table td {
+  padding: 0;
+  padding-top: 0.2em;
+}
+
 .lien {
-  margin-left: 2rem;
-  width: 45px;
-  height: 40px;
-  margin-top: 1em;
+  margin-left: 1rem;
+  width: 35px;
+  height: 30px;
 }
 .works {
   font-weight: lighter;
 }
 img {
+  max-width: 350px;
+  max-height: 350px;
+}
+h5 {
+  color: rgb(79, 65, 212);
+}
+.carousel-caption {
+  margin-bottom: 2em;
+}
+
+.carousel-item {
+  margin-left: 4em;
   height: 300px;
 }
 .carous {
-  margin-left: 8em;
-  margin-right: 2em;
-  max-width: 80%;
-}
-.carousel-inner {
-  padding: 2em;
-  border-top-right-radius: 40%;
+  margin-right: 5em;
+  max-width: 70%;
+  margin-bottom: 2em;
 }
 
-.video {
+.carousel-inner {
+  padding: 1em;
+  /* border-top-right-radius: 40%; */
+}
+
+.video,
+.video-end {
+  margin: 1em;
+  max-height: 600px;
   width: 350px;
   border-radius: 50%;
   border-radius: 50%;
@@ -61,11 +85,21 @@ img {
   bottom: 15%;
   left: -5rem;
 }
+.video-end:hover {
+  border-radius: 50%;
+  border-radius: 20%;
+  width: 900px;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  bottom: 15%;
+  left: -21rem;
+}
 
 h4 {
   text-align: center;
   font-family: 'Tangerine', serif;
-  font-size: 100px;
+  font-size: 4em;
   text-shadow: 4px 4px 4px #aaa;
   font-style: italic;
 }
